@@ -1,0 +1,10 @@
+a
+{
+    background-color: blueviolet;
+}
+
+a:hover
+{
+    background-color: darkblue;
+    text-decoration: underline;
+}

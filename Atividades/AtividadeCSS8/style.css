@@ -1,0 +1,13 @@
+p
+{
+    background-color:white;
+}
+
+p
+{
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 5px solid;
+    margin: 200px;
+}

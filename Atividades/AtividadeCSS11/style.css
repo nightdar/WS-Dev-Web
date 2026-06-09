@@ -1,0 +1,14 @@
+*{
+    color: black;
+}
+
+p
+{
+    background-color: crimson;
+}
+
+#header
+{
+    background-color: lightblue;
+    text-align: center;
+}
