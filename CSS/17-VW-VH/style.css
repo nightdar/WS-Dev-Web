@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+
+.elemento1 {
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}
+
+.elemento2{
+    background-color: coral;
+    width: 100vw;
+    height: 100vh;
+}
