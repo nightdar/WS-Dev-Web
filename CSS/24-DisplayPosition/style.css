@@ -1,0 +1,31 @@
+li
+{
+    background-color: blueviolet;
+    color: red;
+}
+
+.block li
+{
+    display: block;
+    width: 100px;
+    margin: 5px;
+}
+
+.inline li
+{
+    display: inline;
+    width: 5px;
+    margin: 5px;
+}
+
+.inline-block li
+{
+    display: inline-block;
+    width: 100px;
+    margin: 10px;
+}
+
+.none li
+{
+    display: none;
+}

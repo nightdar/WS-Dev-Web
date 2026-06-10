@@ -1,0 +1,55 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.elemento
+{
+    color: white;
+    font-size: 30px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+}
+
+.elemento-estatico
+{
+    background-color: navy;
+    position: static;
+}
+
+.elemento-relativo
+{
+    background-color: coral;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+
+.elemento-absoluto
+{
+    background-color: brown;
+    position: absolute;
+    top: 0px;
+    left: 300px;
+}
+
+.elemento-relativo-pai
+{
+    background-color: crimson;
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+.elemento-relativo-filho
+{
+    background-color: pink;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 150px;
+    top: 50px;
+}
