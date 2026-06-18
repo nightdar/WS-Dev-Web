@@ -1,0 +1,10 @@
+.bg
+{
+    width: 500px;
+    height: 500px;
+    background-image: url(modern-gold-background-free-vector.jpg);
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover*/
+    background-attachment: scroll;
+    /*background-position: right;*/
+}

@@ -1,0 +1,43 @@
+body
+{
+    background-color: white;
+}
+
+.container
+{
+    width: 350px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px gray;
+}
+
+p
+{
+    color: black;
+}
+
+li
+{
+    color: black;
+}
+
+h1
+{
+    color: blue;
+    text-align: center;
+}
+
+h2
+{
+    color: red;
+    margin-bottom: 10px;
+}
+
+img
+{
+    width: 200px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}

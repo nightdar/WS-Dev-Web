@@ -1,0 +1,36 @@
+/*!IMPORTANTE*/
+p
+{
+    background-color: chartreuse !important;
+}
+
+/*EFEITO CASCATA*/
+.container-cascata
+{
+    background-color: aqua;
+}
+
+.container-cascata
+{
+    background-color: yellow;
+}
+
+.container-cascata
+{
+    background-color: red;
+}
+/*ESPECIFICIDADE*/
+#id-paragrafo
+{
+    background-color: orange;
+}
+
+.classe-paragrafo
+{
+    background-color: green;
+}
+
+p
+{
+    background-color: blueviolet;
+}

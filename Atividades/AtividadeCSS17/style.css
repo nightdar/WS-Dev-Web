@@ -1,0 +1,36 @@
+body
+{
+    background-color: white;
+    font-family: Georgia, serif;
+}
+
+.receita
+{
+    width: 500px;
+    margin: auto;
+    background: rgb(240, 224, 195);
+    padding: 20px;
+    box-shadow: 0 0 10px gray;
+}
+
+h1
+{
+    color: brown;
+    text-align: center;
+}
+
+h2
+{
+    color: darkred;
+}
+
+li
+{
+    margin-bottom: 8px;
+}
+
+img
+{
+    width: 100%;
+    border-radius: 10px;
+}
