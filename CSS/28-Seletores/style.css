@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Hierarquia de seletores estiliza apenas os paragrafos dentro da section*/
+section p {
+    color: brown;
+}
+
+/*Aplica estilo nos filhos diretos do seletor*/
+ul > li {
+    color: blue;
+}
+
+/*Aplicação do mesmo estilo para varios seletores*/
+h2, h3 {
+    background-color: green
+}
+
+/*Aplicar estilo em uma tag com duas classses*/
+.card {
+    background-color: aquamarine;
+}
+
+.card.destaque {
+    background-color: yellow;
+    color: blue;
+}
+/*Estiliza o primeiro elemento logo após */
+h2 + p {
+    color: slateblue;
+}
+
+/*Estiliza todos após o elemento*/
+h2 ~ p {
+    color: tomato;
+}
