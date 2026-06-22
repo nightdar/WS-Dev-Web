@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bloco {
+    margin-top: 10px 20px;
+    width: 1250px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #464646;
+    border-radius: 5px;
+    background-color: #464646;
+}
+
+.bloco p {
+    margin-top: 5px;
+    font-size: 24px;
+}
+
+img {
+    border: 2px solid white;
+}
+
+.largura {
+    width: 1000px;
+}
+
+.altura {
+    height: 500px;
+}
+
+.fit {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.posicao {
+    width: 350px;
+    height: 180px;
+    object-fit: contain;
+    object-position: left;
+}
+
+.filtro {
+    filter: grayscale(50%);
+}
+
+.opacidade {
+    opacity: 0.5;
+}
+
+.bordas {
+    border-radius: 20px;
+}
+
+.final {
+    width: 350px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px;
+    filter: grayscale(50%);
+    opacity: 0.5;
+}
