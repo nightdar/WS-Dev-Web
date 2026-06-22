@@ -1,0 +1,31 @@
+body{
+    background-color: #ededed;
+    margin: 0;
+    padding: 10px 60px;
+    display: flex;
+    justify-content: center;
+    
+}
+h1, h2{
+    color: brown;
+    margin-bottom: 10px;
+    margin: 0px;
+    align-items: center;
+}
+form {
+    width: 400px;
+    background-color: rgb(235, 235, 235);
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #5b5b5b;
+}
+label{
+    display: block;
+    margin-top: 8px;
+}
+input, textarea, select {
+    width: 100%;
+    padding: auto;
+    box-sizing: border-box;
+    border: 1px solid #cccc;
+}
