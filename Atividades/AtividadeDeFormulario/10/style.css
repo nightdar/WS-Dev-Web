@@ -1,0 +1,18 @@
+.contato{
+    width:350px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    margin:auto;
+}
+
+.contato input,
+.contato select,
+.contato textarea{
+    padding:10px;
+}
+
+.contato button:hover{
+    background:#008000;
+    color:white;
+}

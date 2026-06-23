@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inscrição em curso</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+</body>
+</html>
+
+<label for="email">E-mail:</label>
+<input type="email" id="email" name="email" placeholder="Digite seu e-mail" required />
+
+<label for="phone">Telefone:</label>
+<input type="tel" id="phone" name="phone" placeholder="(00) 00000-0000" pattern="\(\d{2}\) \d{5}-\d{4}" required />
+
+<label for="course">Curso desejado:</label>
+<select id="course" name="course" required>
+  <option value="" disabled selected>Selecione</option>
+  <option value="informatica">Informática</option>
+  <option value="design">Design</option>
+  <option value="marketing">Marketing</option>
+  <option value="idiomas">Idiomas</option>
+</select>
+
+<label>Período:</label>
+<div class="radio-group">
+  <label><input type="radio" name="period" value="manha" required /> Manhã</label>
+  <label><input type="radio" name="period" value="tarde" /> Tarde</label>
+  <label><input type="radio" name="period" value="noite" /> Noite</label>
+</div>
+
+<label>Materiais extras:</label>
+<div class="checkbox-group">
+  <label><input type="checkbox" name="extras" value="apostila" /> Apostila</label>
+  <label><input type="checkbox" name="extras" value="certificado" /> Certificado</label>
+  <label><input type="checkbox" name="extras" value="suporte" /> Suporte extra</label>
+</div>
+
+<label for="doubts">Dúvidas:</label>
+<textarea id="doubts" name="doubts" placeholder="Digite sua dúvida"></textarea>
+
+<button type="submit" class="finalize">Finalizar inscrição</button>

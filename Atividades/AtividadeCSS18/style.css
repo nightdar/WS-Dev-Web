@@ -1,0 +1,52 @@
+body
+{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.blog
+{
+    width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px gray;
+}
+
+h1
+{
+    color: darkblue;
+    text-align: center;
+}
+
+h2, h3
+{
+    color: blue;
+}
+
+p
+{
+    margin-bottom: 15px;
+}
+
+img
+{
+    width: 250px;
+    display: block;
+    margin: auto;
+    border: 2px solid gray;
+    box-shadow: 0 0 8px gray;
+    border-radius: 10px;
+}
+
+a
+{
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover
+{
+    text-decoration: underline;
+    color: red;
+}

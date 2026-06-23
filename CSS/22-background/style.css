@@ -1,0 +1,24 @@
+.banner {
+    padding: 100px;
+    color: white;
+    text-align: center;
+    background: linear-gradient(45deg, blue 0%, purple 20%, yellow 100%);
+}
+
+.secao {
+    height: 300px;
+    padding: 50px;
+    color: white;
+    background-image: url(modern-gold-background-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.card {
+    padding: 100px;
+    color: white;
+    text-align: center;
+    background: radial-gradient(circle, red 0%, orange 50%, yellow 100%);
+}
