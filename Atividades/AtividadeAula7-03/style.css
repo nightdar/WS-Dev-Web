@@ -1,0 +1,11 @@
+body{
+    font-family:Arial;
+    text-align:center;
+}
+
+footer{
+    margin-top:100px;
+    background:#222;
+    color:white;
+    padding:20px;
+}
