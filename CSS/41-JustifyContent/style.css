@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    max-width: 300px;
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(0, 0, 54);
+}
+
+.item {
+    background-color: rgb(53, 0, 53);
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.container-column {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    height: 300px;
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(0, 0, 54);
+}
+
+.start {
+    justify-content: start;
+}
+
+.end {
+    justify-content: end;
+}
+
+.center {
+    justify-content: center;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.around {
+    justify-content: space-around;
+}
+
+.evenly {
+    justify-content: space-evenly;
+}

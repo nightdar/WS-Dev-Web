@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    max-width: 300px;
+    height: 120px;
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(0, 0, 54);
+}
+
+.item {
+    background-color: rgb(53, 0, 53);
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.stretch {
+    align-items: stretch;
+}
+
+.start {
+    align-items: flex-start;
+}
+
+.end {
+    align-items: flex-end;
+}
+
+.center {
+    align-items: center;
+}
+
+.baseline {
+    align-items: baseline;
+}
+
+.grande {
+    font-size: 40px;
+}

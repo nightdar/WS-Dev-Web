@@ -1,0 +1,19 @@
+body{
+    font-family:Arial;
+    padding:20px;
+}
+
+img{
+    width:300px;
+    border-radius:10px;
+}
+
+details{
+    margin-top:20px;
+    background:#f2f2f2;
+    padding:15px;
+}
+
+mark{
+    background:yellow;
+}
