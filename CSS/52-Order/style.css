@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    width: 500px;
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(0, 0, 54);
+}
+
+.item {
+    background-color: rgb(53, 0, 53);
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.item1 {
+    order: 2;
+}
+
+.item2 {
+    order: 3;
+}
+
+.item3 {
+    order: 1;
+}
+
+.destaque {
+    order: -1;
+    background-color: crimson;
+}

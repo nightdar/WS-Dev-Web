@@ -1,17 +1,30 @@
-body{
-    background-color: black;
-    width: 100px;
-    height: 100px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.elemento1 {
-    background-color: red;
-    width: 100%;
-    height: 100%;
-}
-
-.elemento2{
-    background-color: coral;
+.largura-total {
+    
+    background-color: blue;
     width: 100vw;
+    padding: 20px;
+}
+
+.largura-metade {
+    background-color: red;
+    width: 50vw;
+    padding: 20px;
+}
+
+.altura-metade {
+    background-color: yellow;
+    height: 50vh;
+    padding: 20px;
+}
+
+.altura-total {
+    background-color: purple;
     height: 100vh;
+    padding: 20px;
 }

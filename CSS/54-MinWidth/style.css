@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(0, 0, 54);
+}
+
+.imagem {
+    background-color: rgb(53, 0, 53);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.conteudo {
+    flex: 1;
+    background-color: darkred;
+    padding: 10px;
+}
+
+.com-ajuste .conteudo {
+    min-width: 0;
+}
+
+.conteudo p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: black;
+    padding: 10px;
+}

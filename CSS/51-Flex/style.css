@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    width: 500px;
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(0, 0, 54);
+}
+
+.item {
+    background-color: rgb(53, 0, 53);
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+/*        grow  shrink  basis
+  padrão: 0     1       auto
+  Elemento não cresce, pode escolher e inicia com base no conteudo*/
+.flex-1 .item {
+    flex: 1;
+}
+
+.flex-auto .item {
+    flex: 1 1 auto;
+}
+
+.flex-fixo .item {
+    flex: 0 0 200px;
+}
+
+.flex-completo .item {
+    flex: 1 1 250px;
+}
