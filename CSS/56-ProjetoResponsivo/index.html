@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>L<span>OG</span>O</h1>
+        <input type="checkbox" name="menu-toggle" id="menu-toggle">
+        <label for="menu-toggle" class="hamburguer">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">PRODUTOS</a></li>
+                <li><a href="#">SOBRE</a></li>
+                <li><a href="#">CONTATO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Moda Essential</h2>
+        <section class="main-hero">
+            <div class="hero-text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi corporis quidem accusantium officia. Deleniti ea magni hic sit earum nisi ratione, cumque cupiditate! Dicta nostrum animi neque repellendus, laboriosam officia.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt aspernatur totam quisquam aliquam perferendis, ipsum doloremque quia ducimus est facere. Cum est dolore quis. Libero consequatur voluptas alias culpa temporibus?</p>
+            </div>
+            <div class="hero-image">
+                <picture>
+                    <source src="./pequena.png" media="max-width: 576px">
+                    <source src="./media.png" media="max-width: 992px">
+                    <img src="./grande.png" alt="Imagem de representação de uma loja">
+                </picture>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
