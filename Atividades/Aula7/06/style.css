@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+h1{
+    color: #0056b3;
+}
+
+h2{
+    color: #333;
+    margin-top: 30px;
+}
+
+iframe{
+    margin: 20px auto;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+
+a{
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: bold;
+}
+
+a:hover{
+    color: #ff6600;
+}

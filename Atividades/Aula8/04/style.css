@@ -1,0 +1,72 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+    
+body {
+    background:#f3f7fb;
+}
+    
+header {
+    background:#0066cc;
+    color:white;
+    padding:35px;
+    text-align:center;
+    }
+    
+section {
+    width:800px;
+    margin:30px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+}
+    
+input {
+    width:100%;
+    padding:12px;
+    margin:20px 0;
+    }
+    
+h2::before { 
+    content:"📚 ";
+    }
+    
+h2::after {
+    content:" ⭐";
+}
+    
+.texto::first-letter {
+    font-size:40px;
+    font-weight:bold;
+    color:red;
+}
+    
+.texto::first-line {
+    font-weight:bold;
+}
+    
+::selection {
+    background:gold;
+    color:black;
+}
+    
+input::placeholder {
+    color:gray;
+    font-style:italic;
+}
+    
+li::marker {
+    color:red;
+    font-size:20px;
+}
+    
+ul {
+    margin-left:30px;
+}
+    
+li {
+    margin:10px 0;
+}

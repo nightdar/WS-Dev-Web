@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Museu Digital de História da Arte: Explore obras clássicas sem sair de casa.">
+    <title>Museu Digital | Arte & História</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#exposicoes">Exposições</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Explore arte e história<br>sem sair de casa</h1>
+            <p>Descubra galerias digitais, obras renomadas e coleções únicas com uma página moderna feita em HTML e CSS.</p>
+            <a href="#exposicoes" class="btn">Explorar Agora</a>
+        </div>
+    </header>
+ 
+    <main>
+        <section id="exposicoes">
+            <h2>Galeria em destaque</h2>
+            <div class="cards">
+                <article class="card">
+                    <h3>Renascimento</h3>
+                    <p>Obras que marcaram a transição do pensamento medieval para o moderno.</p>
+                </article>
+                <article class="card">
+                    <h3>Barroco</h3>
+                    <p>A riqueza de detalhes e o contraste dramático entre luz e sombra.</p>
+                </article>
+                <article class="card">
+                    <h3>Impressionismo</h3>
+                    <p>Capturando a luz e o movimento em pinceladas rápidas e vibrantes.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="agenda">
+            <h2>Agenda da exposição</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Evento</th>
+                        <th>Hora</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>10/07</td>
+                        <td>Tour Virtual: Da Vinci</td>
+                        <td>15:00</td>
+                    </tr>
+                    <tr>
+                        <td>15/07</td>
+                        <td>Workshop de Escultura</td>
+                        <td>10:00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="tour-virtual">
+            <h2>Tour Virtual</h2>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Tour Virtual do Museu" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Receba novidades</h2>
+            <form action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+ 
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+ 
+                <label for="msg">Mensagem:</label>
+                <textarea id="msg" name="msg" rows="4"></textarea>
+ 
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+ 
+    <footer>
+        <p>&copy; 2026 Museu Digital | Todos os direitos reservados &trade;</p>
+    </footer>
+</body>
+</html>
