@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrinho de Compras</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jim+Nightshade&family=Uncial+Antiqua&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="titulo">
+        <h1>Carrinho de Compras</h1>
+        <h2>itens de tecnologia</h2>
+      </div>
+
+      <button class="btn-header"><span>+</span> Novo produto</button>
+    </header>
+    <main>
+      <section class="card">
+        <h2>Adicionar produto</h2>
+        <label for="produto">Produto</label>
+        <select name="produto" id="produto">
+        </select>
+        <label for="quantidade">Quantidade</label>
+        <input type="number" id="quantidade" min="1" value="1" />
+
+        <button class="btn-adicionar">Adicionar ao carrinho</button>
+
+        <div class="info">
+          <div class="info-imagem" style="width: 150px">
+            <img src="https://placehold.co/150x150" alt="" />
+          </div>
+          <div class="info-dados">
+            <h3>Mouse</h3>
+            <p>Mouse optico</p>
+            <p>R$ 159,90</p>
+          </div>
+        </div>
+      </section>
+      <section class="card">
+        <h2>Produtos no Carrinho</h2>
+        <p>Seu carrinho esta vazio</p>
+        <hr />
+        <div class="summary">
+          <div class="summary-total">
+            <p>Total</p>
+            <p class="total-valor">R$ 0,00</p>
+          </div>
+          <button class="total-limpar">Limpar</button>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
