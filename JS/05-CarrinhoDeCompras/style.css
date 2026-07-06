@@ -1,173 +1,278 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    background-color: #e3e3e3;
-    color: #232323;
-    line-height: 1.5;
-    font-family: "Uncial Antiqua", system-ui;
-    padding: 2rem;
-  }
-  
-  img {
-    width: 100%;
-    display: block;
-  }
-  
-  /*----- CABEÇALHO -----*/
-  
-  header {
-    background-color: #f3f3f3;
-    padding: 0.75rem 1.25rem;
-    max-width: 80vw;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
-    border-radius: 1rem 1rem 0 0;
-  }
-  
-  header h1 {
-    font-weight: 900;
-    font-size: 2rem;
-  }
-  
-  header h2 {
-    font-size: 1.2rem;
-    font-weight: 300;
-    color: #353535;
-  }
-  
-  .btn-header {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    background-color: dodgerblue;
-    color: #fff;
-    font-weight: 600;
-    padding: 0.75rem 1.25rem;
-    border-radius: 0.5rem;
-    border: none;
-    cursor: pointer;
-    box-shadow: 0 0.25rem 0.75rem #aaa;
-  }
-  
-  .btn-header:hover {
-    background-color: rgba(30, 143, 255, 0.8);
-  }
-  
-  .btn-header span {
-    font-size: 1.8rem;
-  }
-  
-  main {
-    background-color: #f3f3f3;
-    padding: 2rem 1rem;
-    max-width: 80vw;
-    margin: 0 auto;
-    border-radius: 0 0 1rem 1rem;
-    display: grid;
-    grid-template-columns: 1fr 1.5fr;
-    gap: 1rem;
-  }
-  
-  .card {
-    background-color: #fafafa;
-    border-radius: 1rem;
-    padding: 0.75rem;
-    box-shadow: 0 0.25rem 0.75rem #aaa;
-  }
-  
-  .card h2 {
-    font-size: 1.25rem;
-    margin-bottom: 1rem;
-  }
-  
-  .card label {
-    display: block;
-    font-size: 1rem;
-    font-weight: 500;
-    margin-bottom: 0.25rem;
-  }
-  
-  .card select,
-  .card input {
-    width: 100%;
-    padding: 0.5rem;
-    border: 1px solid #aaa;
-    border-radius: 0.5rem;
-    margin-bottom: 1rem;
-    font-size: 0.75rem;
-    outline: none;
-  }
-  
-  .card select:focus,
-  .card input:focus {
-    border-color: dodgerblue;
-  }
-  
-  .card .btn-adicionar {
-    background-color: dodgerblue;
-    color: #fff;
-    font-weight: 600;
-    padding: 0.75rem 1.25rem;
-    border-radius: 0.5rem;
-    border: none;
-    cursor: pointer;
-    box-shadow: 0 0.25rem 0.75rem #aaa;
-    margin-bottom: 1rem;
-  }
-  
-  .card .btn-adicionar:hover {
-    background-color: rgba(30, 143, 255, 0.8);
-  }
-  
-  .card .info {
-    display: flex;
-    gap: 1rem;
-    border: 1px solid #aaa;
-    padding: 0.5rem;
-    border-radius: 1rem;
-  }
-  
-  .card .summary {
-    margin-top: 1.5rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .summary .total-limpar {
-    background-color: firebrick;
-    color: #fff;
-    font-weight: 600;
-    padding: 0.75rem 1.25rem;
-    border-radius: 0.5rem;
-    border: none;
-    cursor: pointer;
-    box-shadow: 0 0.25rem 0.75rem #aaa;
-    margin-bottom: 1rem;
-  }
-  
-  
-  .summary .total-limpar:hover {
-    background-color: rgba(178, 34, 34, 0.8);
-  }
-  
-  .summary p {
-    font-size: 1rem;
-    font-weight: 500;
-    margin-bottom: 0.25rem;
-  }
-  
-  .summary .total-valor{
-      font-size: 1.25rem;
-      color: dodgerblue;
-      font-weight: 600;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e3e3e3;
+  color: #232323;
+  line-height: 1.5;
+  font-family: "Inter", sans-serif;
+  padding: 2rem;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+/*----- CABEÇALHO -----*/
+
+header {
+  background-color: #f3f3f3;
+  padding: 0.75rem 1.25rem;
+  max-width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 1rem 1rem 0 0;
+}
+
+header h1 {
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+header h2 {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #353535;
+}
+
+.btn-header {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: dodgerblue;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0.25rem 0.75rem #aaa;
+}
+
+.btn-header:hover {
+  background-color: rgba(30, 143, 255, 0.8);
+}
+
+.btn-header span {
+  font-size: 1.8rem;
+}
+
+/*----- CORPO -----*/
+
+main {
+  background-color: #f3f3f3;
+  padding: 2rem 1rem;
+  max-width: 80vw;
+  margin: 0 auto;
+  border-radius: 0 0 1rem 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 1rem;
+}
+
+.card {
+  background-color: #fafafa;
+  border-radius: 1rem;
+  padding: 0.75rem;
+  box-shadow: 0 0.25rem 0.75rem #aaa;
+}
+
+.card h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.card label {
+  display: block;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.card select,
+.card input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #aaa;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 0.75rem;
+  outline: none;
+}
+
+.card select:focus,
+.card input:focus {
+  border-color: dodgerblue;
+}
+
+.card .btn-adicionar {
+  background-color: dodgerblue;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0.25rem 0.75rem #aaa;
+  margin-bottom: 1rem;
+}
+
+.card .btn-adicionar:hover {
+  background-color: rgba(30, 143, 255, 0.8);
+}
+
+/*----- PREVIEW NO JS -----*/
+
+.preview {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  border: 1px solid #aaa;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+.preview .preview-imagem {
+  width: 150px;
+  height: 150px;
+  flex: 0 0 150px;
+  overflow: hidden;
+}
+
+.preview .preview-imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.preview-dados h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.preview-dados p {
+  margin-bottom: 0.25rem;
+}
+
+.preview-dados .dados-price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: dodgerblue;
+}
+
+/*----- CARRINHO NO JS -----*/
+
+.carrinho-item {
+  display: grid;
+  grid-template-columns: 100px 1fr auto;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.carrinho-item .item-imagem {
+  width: 100px;
+  height: 100px;
+  flex: 0 0 100px;
+  overflow: hidden;
+}
+
+.carrinho-item .item-imagem img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+.carrinho-item .item-dados h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.carrinho-item .item-dados p {
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+}
+
+.carrinho-item .item-quantidade {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.carrinho-item .item-quantidade button {
+  background-color: dodgerblue;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.15rem 0.4rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  font-size: 0.75rem;
+}
+
+.card .summary {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.summary .total-limpar {
+  background-color: firebrick;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0.25rem 0.75rem #aaa;
+  margin-bottom: 1rem;
+}
+
+.summary .total-limpar:hover {
+  background-color: rgba(178, 34, 34, 0.8);
+}
+
+.summary p {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.summary .total-valor {
+  font-size: 1.25rem;
+  color: dodgerblue;
+  font-weight: 600;
+}
+
+/*----- MODAL -----*/
+
+dialog {
+  border: none;
+  border-radius: 14px;
+  padding: 20px;
+  width: 90%;
+  max-width: 420px;
+  margin: auto;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+}
+ 
+dialog::backdrop {
+  background: rgba(0, 0, 0, 0.4);
+}
+ 
+.modal-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}

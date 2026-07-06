@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Carrinho de Compras</title>
-    <link href="https://fonts.googleapis.com/css2?family=Jim+Nightshade&family=Uncial+Antiqua&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Yuyu&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -14,43 +14,56 @@
         <h2>itens de tecnologia</h2>
       </div>
 
-      <button class="btn-header"><span>+</span> Novo produto</button>
+      <button class="btn-header" onclick="abrirModal()"><span>+</span> Novo produto</button>
     </header>
     <main>
       <section class="card">
         <h2>Adicionar produto</h2>
         <label for="produto">Produto</label>
-        <select name="produto" id="produto">
-        </select>
+        <select name="produto" id="produto"></select>
         <label for="quantidade">Quantidade</label>
         <input type="number" id="quantidade" min="1" value="1" />
 
-        <button class="btn-adicionar">Adicionar ao carrinho</button>
-
-        <div class="info">
-          <div class="info-imagem" style="width: 150px">
-            <img src="https://placehold.co/150x150" alt="" />
-          </div>
-          <div class="info-dados">
-            <h3>Mouse</h3>
-            <p>Mouse optico</p>
-            <p>R$ 159,90</p>
-          </div>
+        <button onclick="adicionarProduto()" class="btn-adicionar">Adicionar ao carrinho</button>
+        <div class="preview" id="preview">
+          <!-- Todo HTML dessa parte irá aparecer via JS -->
         </div>
       </section>
       <section class="card">
         <h2>Produtos no Carrinho</h2>
-        <p>Seu carrinho esta vazio</p>
+        <div class="carrinho" id="carrinho">
+          <!-- Todo HTML dessa parte irá aparecer via JS -->
+        </div>
         <hr />
         <div class="summary">
           <div class="summary-total">
             <p>Total</p>
-            <p class="total-valor">R$ 0,00</p>
+            <p class="total-valor" id="total-valor">R$ 0,00</p>
           </div>
-          <button class="total-limpar">Limpar</button>
+          <button class="total-limpar" onclick="limparCarrinho()">Limpar</button>
         </div>
       </section>
     </main>
+    <dialog id="modalProduto">
+      <h2>Novo produto</h2>
+       
+        <label for="novoNome">Nome</label>
+      <input type="text" id="novoNome" placeholder="Ex: Teclado Mecânico" />
+       
+        <label for="novoPreco">Preço</label>
+      <input type="number" id="novoPreco" placeholder="Ex: 199.90" />
+       
+        <label for="novaDescricao">Descrição</label>
+      <input type="text" id="novaDescricao" placeholder="Ex: RGB, USB, ABNT2" />
+       
+        <label for="novaImagem">URL da imagem</label>
+      <input type="text" id="novaImagem" placeholder="https://exemplo.com/imagem.jpg" />
+       
+        <div class="modal-actions">
+      <button class="btn-light" onclick="fecharModal()">Cancelar</button>
+      <button onclick="salvarProduto()">Salvar</button>
+      </div>
+      </dialog>
     <script src="script.js"></script>
   </body>
 </html>
