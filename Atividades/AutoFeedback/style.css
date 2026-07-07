@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 5px;
+    background-color: rgb(223, 185, 139);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+
+body {
+    background-color: rgb(255, 228, 196);
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.cards {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.card {
+    background: rgb(255, 220, 177);
+    border: 1px solid none;
+    border-radius: 10px;
+    padding: 18px;
+    box-shadow: 0 2px 6px rgba(0,0,0,.08);
+    transition: .3s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 15px rgba(0,0,0,.12);
+}
+
+.card ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.card li {
+    margin-bottom: 10px;
+}
+
+.largo {
+    grid-column: span 3;
+}
+
+.feedback-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.feedback-box {
+
+    border: 1px solid none;
+    border-radius: 8px;
+    background: rgb(255, 220, 177);
+    padding: 18px 20px;
+    box-shadow: 0 3px 8px rgba(0,0,0,.12);
+
+}
+
+.feedback-title {
+
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    text-align: left;
+    margin-bottom: 15px;
+
+}
+
+.feedback-title h2 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.feedback-title p {
+    margin-top: 8px;
+    color: #777;
+    font-size: 15px;
+}
+
+textarea {
+    background-color: rgb(248, 225, 197);
+    width: 100%;
+    height: 130px;
+    padding: 15px;
+    border: 1px solid rgb(255, 220, 177);
+    border-radius: 6px;
+    resize: none;
+    font-size: 15px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+textarea:focus {
+    border-color: rgb(190, 162, 127);
+}
+
+.btn-finalizar {
+    margin-top: 25px;
+    background: rgb(197, 165, 126);
+    color: white;
+    border: none;
+    border-radius:6px;
+    padding:15px 35px;
+    font-size:22px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.btn-finalizar:hover {
+    background: rgb(189, 151, 104);
+}
+
+.btn-finalizar i{
+    margin-right:10px;
+}
+
+.aviso {
+    margin:30px auto 0;
+    max-width:900px;
+    border:1px solid rgb(189, 151, 104);
+    background:rgb(197, 165, 126);
+    border-radius:6px;
+    padding:15px;
+    color: white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:12px;
+    font-size:15px;
+}
+
+.aviso i {
+    font-size:22px;
+}
+
+footer {
+    width: 100%;
+    margin-top: 203px;
+    background: rgb(223, 185, 139);
+    color: white;
+    text-align: center;
+    padding: 18px;
+    font-size: 22px;
+    font-weight: 500;
+}
